@@ -1,0 +1,87 @@
+
+/*TODO: Add your styles */
+body {
+    color:#B1D0E0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', serif;
+}
+@media (prefers-color-scheme: dark) {
+    :root{color:#125688}
+}
+h1 {
+    color:#B1D0E0;
+    font-weight: bold;
+    margin: 50px auto 0 auto;
+    font-family: 'Cookie', cursive;
+}
+h2 {
+    color:#6998AB;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 10px;
+    font-size: 350%;
+    line-height: 120%;
+}
+
+h3 {
+    color: #6998AB;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p{
+    line-height: 2;
+}
+.top-container {
+    text-align:center;
+    background-color:#406882;
+    position: relative;
+    padding-top: 20px;
+}
+.middle-container {
+    margin: 10px 0px 0px 10px;
+    padding: 50px 0 20px 20px;
+    text-align: center;
+}
+.bottom-container {
+    background-color: #406882;
+    padding: 50px 20px 20px 20px;
+    
+}
+
+
+
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 5px 20px;
+}
+
+.fa-github {
+    background: #00aff0;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
